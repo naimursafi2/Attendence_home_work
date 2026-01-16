@@ -35,7 +35,9 @@ const Report = () => {
 
   return (
     <div className="p-10 w-2xl m-auto">
-      <h1 className="text-slate-500 text-3xl font-bold mb-4 text-center border-b-4 border-b-blue-800">Attendance Report</h1>
+      <h1 className="text-slate-500 text-3xl font-bold mb-4 text-center border-b-4 border-b-blue-800">
+        Attendance Report
+      </h1>
 
       <Select
         option={batchList}
@@ -55,24 +57,27 @@ const Report = () => {
                 <tr className="bg-slate-200">
                   <td className="text-xl uppercase border p-2 w-[10%]">SL</td>
                   <td className="text-xl uppercase border p-2">Student Name</td>
-                  <td className="text-xl uppercase border p-2 w-[20%]">Attendance</td>
+                  <td className="text-xl uppercase border p-2 w-[20%]">
+                    Attendance
+                  </td>
                 </tr>
               </thead>
               <tbody>
-                {attendList.map((entry, i) =>
+                {
                   // console.log(entry.studentList.attend)
 
-                  entry.studentList.map((student) => (
+                  entry.studentList.map((student,i) => (
                     <tr key={student.id}>
                       <td className="border p-2">{i + 1}</td>
-                      <td className="border p-2 text-lg">{student.studentName}</td>
+                      <td className="border p-2 text-lg">
+                        {student.studentName}
+                      </td>
                       <td className="border p-2">
-                       
                         {student.attend ? "Present" : "Absent"}
                       </td>
                     </tr>
                   ))
-                )}
+                }
               </tbody>
             </table>
           </div>

@@ -52,6 +52,7 @@ const Login = () => {
             password: "Please enter your password",
           }));
         }
+        
       });
   };
   console.log(errors);

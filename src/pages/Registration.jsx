@@ -83,6 +83,12 @@ const Registration = () => {
         if (errorCode == "auth/email-already-in-use") {
           return toast.warning("Email already in use. Please login");
         }
+        if (errorCode == "auth/weak-password") {
+          return setErrors((prev) => ({
+            ...prev,
+            password: "Password at least 6 character",
+          }));
+        }
       })
       .finally(() => {
         setLoading(false);
