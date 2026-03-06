@@ -4,9 +4,9 @@ import Home from "./pages/Home";
 import Layout from "./components/Layout/Index";
 import AddStudents from "./pages/AddStudents";
 import Registration from "./pages/Registration";
-import Login from "./pages/Login.Jsx";
 import Attendence from "./pages/Attendence";
 import Report from "./pages/Report";
+import Login from "./pages/Login";
 
 
 const App = () => {

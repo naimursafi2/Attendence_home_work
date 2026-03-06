@@ -10,7 +10,7 @@ const Login = () => {
   });
   const [errors, setErrors] = useState({
     email: "",
-    password: "",
+    password: "", 
   });
   const auth = getAuth();
   const navigate = useNavigate();
