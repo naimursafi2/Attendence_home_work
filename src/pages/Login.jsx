@@ -58,7 +58,7 @@ const Login = () => {
   console.log(errors);
 
   return (
-    <div className="bg-[url('backround3.jpg')]  bg-no-repeat bg-cover bg-center  h-screen py-25">
+    <div className="bg-[url('/backround3.jpg')]  bg-no-repeat bg-cover bg-center  h-screen py-25">
       <ToastContainer />
       <div className="bg-[url('backround4.jpg')]  bg-no-repeat bg-cover bg-center  w-xl rounded-lg m-auto shadow-2xl  bg-white   p-16 flex  flex-col  justify-center items-center">
         <div className=" flex justify-center mb-5 flex-col items-center">
