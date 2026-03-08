@@ -95,9 +95,9 @@ const Registration = () => {
       });
   };
   return (
-    <div className="bg-[url('backround3.jpg')]  bg-no-repeat bg-cover bg-center  h-screen py-25">
+    <div className="bg-[url('/backround3.jpg')]  bg-no-repeat bg-cover bg-center  h-screen py-25">
       <ToastContainer />
-      <div className="bg-[url('backround4.jpg')]  bg-no-repeat bg-cover bg-center  w-xl h-110 rounded-lg m-auto shadow-2xl  bg-white p-5 flex  flex-col  justify-center items-center">
+      <div className="bg-[url('/backround4.jpg')]  bg-no-repeat bg-cover bg-center  w-xl h-110 rounded-lg m-auto shadow-2xl  bg-white p-5 flex  flex-col  justify-center items-center">
         <div className=" flex justify-center flex-col  mb-5 items-center">
           <h2 className="text-2xl font-medium text-white uppercase">
             Registration form

@@ -52,7 +52,7 @@ const AddStudents = () => {
     remove(ref(db, `studentList/${batchId}/${id}`));
   };
   return (
-    <div className="bg-[url('backround7.png')]  bg-no-repeat bg-cover bg-center flex justify-center h-screen items-center">
+    <div className="bg-[url('/backround7.png')]  bg-no-repeat bg-cover bg-center flex justify-center h-screen items-center">
       <ToastContainer/>
       <div className="bg-slate-200/75 p-10 shadow rounded-2xl">
         <h1 className="text-3xl border-b w-lg font-bold">Add New Students</h1>
